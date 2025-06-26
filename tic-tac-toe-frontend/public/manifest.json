@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "My Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/styles.css",
+        "assets/locales/en/translation.json"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
